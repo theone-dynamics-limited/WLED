@@ -164,7 +164,7 @@ async function onLoad()
 		loc = true;
 		locip = localStorage.getItem('locIp');
 		if (!locip) {
-			locip = prompt("File Mode. Please enter WLED IP!");
+			locip = prompt("File Mode. Please enter Illuminate IP!");
 			localStorage.setItem('locIp', locip);
 		}
 	} else {
